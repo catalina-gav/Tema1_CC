@@ -1,0 +1,568 @@
+{
+	"id": "014c2c0d-210a-41c0-881b-4824867d3675",
+	"name": "Tema_2_CC",
+	"timestamp": "2021-03-12T16:00:23.886Z",
+	"collection_id": "fea10d6a-bc40-474a-9854-57c29b07cef4",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "4595cee6-8c2b-4c05-9b3c-490f5c371b4c",
+			"name": "get all - empty database",
+			"url": "http://localhost:8000/api/artists",
+			"time": 2,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "43228087-41d9-460c-8ce4-30751fb631db",
+			"name": "create call on specific item",
+			"url": "http://localhost:8000/api/artists/1",
+			"time": 3,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bd1e12cb-d0ec-4e68-9efb-74d905240624",
+			"name": "create entire collection call",
+			"url": "http://localhost:8000/api/artists",
+			"time": 4,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3bff62ce-a318-48e4-a886-1ff826c0a28d",
+			"name": "another post call",
+			"url": "http://localhost:8000/api/artists",
+			"time": 3,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "218e9261-7e4d-4204-b333-3f547704e1db",
+			"name": "getAll",
+			"url": "http://localhost:8000/api/artists",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c9650811-cf57-426f-9142-b0badc17368d",
+			"name": "patch 405",
+			"url": "http://localhost:8000/api/artists",
+			"time": 3,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5cc5bbfb-f2e5-48cb-9846-02f9cc8231c2",
+			"name": "patch bad request",
+			"url": "http://localhost:8000/api/artists/1",
+			"time": 2,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c26d338c-b666-4565-a955-559a21802e29",
+			"name": "patch not found",
+			"url": "http://localhost:8000/api/artists/2000",
+			"time": 3,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4987859a-fa62-41a7-8e0d-7615edc72b36",
+			"name": "post bad request",
+			"url": "http://localhost:8000/api/artists",
+			"time": 2,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ccd24ce1-f264-4953-99c9-7dabb133a4c8",
+			"name": "get the post created at 1",
+			"url": "http://localhost:8000/api/artists/1",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "27b89785-04f4-4be7-a50e-802abfd14023",
+			"name": "patch bun",
+			"url": "http://localhost:8000/api/artists/1",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5e0b1c21-b9df-4dbf-a568-08a8753e7fed",
+			"name": "get updated artist",
+			"url": "http://localhost:8000/api/artists/50",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "90d9e64a-8004-4a85-b152-f76596caa177",
+			"name": "put bun cu id",
+			"url": "http://localhost:8000/api/artists/50",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9aeaf521-82f3-44a8-9716-e5e261c88aa2",
+			"name": "put bun fara id",
+			"url": "http://localhost:8000/api/artists/1",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "83fe1ec3-5fbe-430e-8d1c-c6ea23e0359c",
+			"name": "get updated artist",
+			"url": "http://localhost:8000/api/artists/1",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a135f1ec-5a03-44e8-a9c7-b38fa8ebf45a",
+			"name": "put not found",
+			"url": "http://localhost:8000/api/artists/1000",
+			"time": 2,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3ee24f22-232b-452a-8eef-fcb26feede24",
+			"name": "put 405",
+			"url": "http://localhost:8000/api/artists",
+			"time": 2,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "cfeaad68-54f5-46e7-af48-efaf7ff704c5",
+			"name": "delete bun",
+			"url": "http://localhost:8000/api/artists/1",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7d2ede10-c723-4911-a676-577b49448dfe",
+			"name": "get the post created at 1 Copy",
+			"url": "http://localhost:8000/api/artists/1",
+			"time": 2,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "dae70268-b817-4808-b993-b338991b0eee",
+			"name": "delete 405",
+			"url": "http://localhost:8000/api/artists",
+			"time": 5,
+			"responseCode": {
+				"code": 405,
+				"name": "Method Not Allowed"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "26783532-609c-4952-9de9-46ad241c1eed",
+			"name": "delete 404 not found",
+			"url": "http://localhost:8000/api/artists/asdasd",
+			"time": 2,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9b450228-86d7-4588-9a3f-1ae80ee5586f",
+			"name": "create call on specific item Copy",
+			"url": "http://localhost:8000/api/artists",
+			"time": 3,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ba683c25-9a91-41fd-9ae0-14fe6e4b17b3",
+			"name": "getAll Copy",
+			"url": "http://localhost:8000/api/artists",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d24c2344-ea40-41b3-bc6e-b6e1955152a8",
+			"name": "patch conflict",
+			"url": "http://localhost:8000/api/artists/3",
+			"time": 5,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c7c8cd5e-6fa0-4d0b-bc8b-31dd327f9216",
+			"name": "put conflict",
+			"url": "http://localhost:8000/api/artists/3",
+			"time": 4,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 74,
+	"collection": {
+		"requests": [
+			{
+				"id": "4595cee6-8c2b-4c05-9b3c-490f5c371b4c",
+				"method": "GET"
+			},
+			{
+				"id": "43228087-41d9-460c-8ce4-30751fb631db",
+				"method": "POST"
+			},
+			{
+				"id": "bd1e12cb-d0ec-4e68-9efb-74d905240624",
+				"method": "POST"
+			},
+			{
+				"id": "3bff62ce-a318-48e4-a886-1ff826c0a28d",
+				"method": "POST"
+			},
+			{
+				"id": "218e9261-7e4d-4204-b333-3f547704e1db",
+				"method": "GET"
+			},
+			{
+				"id": "c9650811-cf57-426f-9142-b0badc17368d",
+				"method": "PATCH"
+			},
+			{
+				"id": "5cc5bbfb-f2e5-48cb-9846-02f9cc8231c2",
+				"method": "PATCH"
+			},
+			{
+				"id": "c26d338c-b666-4565-a955-559a21802e29",
+				"method": "PATCH"
+			},
+			{
+				"id": "4987859a-fa62-41a7-8e0d-7615edc72b36",
+				"method": "POST"
+			},
+			{
+				"id": "ccd24ce1-f264-4953-99c9-7dabb133a4c8",
+				"method": "GET"
+			},
+			{
+				"id": "27b89785-04f4-4be7-a50e-802abfd14023",
+				"method": "PATCH"
+			},
+			{
+				"id": "5e0b1c21-b9df-4dbf-a568-08a8753e7fed",
+				"method": "GET"
+			},
+			{
+				"id": "90d9e64a-8004-4a85-b152-f76596caa177",
+				"method": "PUT"
+			},
+			{
+				"id": "9aeaf521-82f3-44a8-9716-e5e261c88aa2",
+				"method": "PUT"
+			},
+			{
+				"id": "83fe1ec3-5fbe-430e-8d1c-c6ea23e0359c",
+				"method": "GET"
+			},
+			{
+				"id": "a135f1ec-5a03-44e8-a9c7-b38fa8ebf45a",
+				"method": "PUT"
+			},
+			{
+				"id": "3ee24f22-232b-452a-8eef-fcb26feede24",
+				"method": "PUT"
+			},
+			{
+				"id": "cfeaad68-54f5-46e7-af48-efaf7ff704c5",
+				"method": "DELETE"
+			},
+			{
+				"id": "7d2ede10-c723-4911-a676-577b49448dfe",
+				"method": "GET"
+			},
+			{
+				"id": "dae70268-b817-4808-b993-b338991b0eee",
+				"method": "DELETE"
+			},
+			{
+				"id": "26783532-609c-4952-9de9-46ad241c1eed",
+				"method": "DELETE"
+			},
+			{
+				"id": "9b450228-86d7-4588-9a3f-1ae80ee5586f",
+				"method": "POST"
+			},
+			{
+				"id": "ba683c25-9a91-41fd-9ae0-14fe6e4b17b3",
+				"method": "GET"
+			},
+			{
+				"id": "d24c2344-ea40-41b3-bc6e-b6e1955152a8",
+				"method": "PATCH"
+			},
+			{
+				"id": "c7c8cd5e-6fa0-4d0b-bc8b-31dd327f9216",
+				"method": "PUT"
+			}
+		]
+	}
+}
