@@ -1,7 +1,7 @@
 {
-	"id": "014c2c0d-210a-41c0-881b-4824867d3675",
+	"id": "06a2803b-a0cc-45b8-b3c3-071550d173a7",
 	"name": "Tema_2_CC",
-	"timestamp": "2021-03-12T16:00:23.886Z",
+	"timestamp": "2021-03-12T16:08:04.620Z",
 	"collection_id": "fea10d6a-bc40-474a-9854-57c29b07cef4",
 	"folder_id": 0,
 	"environment_id": "0",
@@ -12,7 +12,7 @@
 			"id": "4595cee6-8c2b-4c05-9b3c-490f5c371b4c",
 			"name": "get all - empty database",
 			"url": "http://localhost:8000/api/artists",
-			"time": 2,
+			"time": 6,
 			"responseCode": {
 				"code": 204,
 				"name": "No Content"
@@ -20,7 +20,7 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				2
+				6
 			],
 			"allTests": [
 				{}
@@ -48,7 +48,7 @@
 			"id": "bd1e12cb-d0ec-4e68-9efb-74d905240624",
 			"name": "create entire collection call",
 			"url": "http://localhost:8000/api/artists",
-			"time": 4,
+			"time": 3,
 			"responseCode": {
 				"code": 201,
 				"name": "Created"
@@ -56,7 +56,7 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				4
+				3
 			],
 			"allTests": [
 				{}
@@ -120,7 +120,7 @@
 			"id": "5cc5bbfb-f2e5-48cb-9846-02f9cc8231c2",
 			"name": "patch bad request",
 			"url": "http://localhost:8000/api/artists/1",
-			"time": 2,
+			"time": 6,
 			"responseCode": {
 				"code": 400,
 				"name": "Bad Request"
@@ -128,7 +128,7 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				2
+				6
 			],
 			"allTests": [
 				{}
@@ -138,7 +138,7 @@
 			"id": "c26d338c-b666-4565-a955-559a21802e29",
 			"name": "patch not found",
 			"url": "http://localhost:8000/api/artists/2000",
-			"time": 3,
+			"time": 5,
 			"responseCode": {
 				"code": 404,
 				"name": "Not Found"
@@ -146,7 +146,7 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				3
+				5
 			],
 			"allTests": [
 				{}
@@ -192,7 +192,7 @@
 			"id": "27b89785-04f4-4be7-a50e-802abfd14023",
 			"name": "patch bun",
 			"url": "http://localhost:8000/api/artists/1",
-			"time": 3,
+			"time": 5,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -200,7 +200,7 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				3
+				5
 			],
 			"allTests": [
 				{}
@@ -210,7 +210,7 @@
 			"id": "5e0b1c21-b9df-4dbf-a568-08a8753e7fed",
 			"name": "get updated artist",
 			"url": "http://localhost:8000/api/artists/50",
-			"time": 2,
+			"time": 3,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -218,7 +218,7 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				2
+				3
 			],
 			"allTests": [
 				{}
@@ -228,7 +228,7 @@
 			"id": "90d9e64a-8004-4a85-b152-f76596caa177",
 			"name": "put bun cu id",
 			"url": "http://localhost:8000/api/artists/50",
-			"time": 3,
+			"time": 4,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -236,7 +236,7 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				3
+				4
 			],
 			"allTests": [
 				{}
@@ -246,7 +246,7 @@
 			"id": "9aeaf521-82f3-44a8-9716-e5e261c88aa2",
 			"name": "put bun fara id",
 			"url": "http://localhost:8000/api/artists/1",
-			"time": 2,
+			"time": 4,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -254,7 +254,7 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				2
+				4
 			],
 			"allTests": [
 				{}
@@ -264,7 +264,7 @@
 			"id": "83fe1ec3-5fbe-430e-8d1c-c6ea23e0359c",
 			"name": "get updated artist",
 			"url": "http://localhost:8000/api/artists/1",
-			"time": 3,
+			"time": 2,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -272,7 +272,7 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				3
+				2
 			],
 			"allTests": [
 				{}
@@ -282,7 +282,7 @@
 			"id": "a135f1ec-5a03-44e8-a9c7-b38fa8ebf45a",
 			"name": "put not found",
 			"url": "http://localhost:8000/api/artists/1000",
-			"time": 2,
+			"time": 3,
 			"responseCode": {
 				"code": 404,
 				"name": "Not Found"
@@ -290,7 +290,7 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				2
+				3
 			],
 			"allTests": [
 				{}
@@ -318,7 +318,7 @@
 			"id": "cfeaad68-54f5-46e7-af48-efaf7ff704c5",
 			"name": "delete bun",
 			"url": "http://localhost:8000/api/artists/1",
-			"time": 6,
+			"time": 9,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -326,7 +326,7 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				6
+				9
 			],
 			"allTests": [
 				{}
@@ -336,7 +336,7 @@
 			"id": "7d2ede10-c723-4911-a676-577b49448dfe",
 			"name": "get the post created at 1 Copy",
 			"url": "http://localhost:8000/api/artists/1",
-			"time": 2,
+			"time": 4,
 			"responseCode": {
 				"code": 404,
 				"name": "Not Found"
@@ -344,7 +344,7 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				2
+				4
 			],
 			"allTests": [
 				{}
@@ -354,7 +354,7 @@
 			"id": "dae70268-b817-4808-b993-b338991b0eee",
 			"name": "delete 405",
 			"url": "http://localhost:8000/api/artists",
-			"time": 5,
+			"time": 4,
 			"responseCode": {
 				"code": 405,
 				"name": "Method Not Allowed"
@@ -362,7 +362,7 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				5
+				4
 			],
 			"allTests": [
 				{}
@@ -372,7 +372,7 @@
 			"id": "26783532-609c-4952-9de9-46ad241c1eed",
 			"name": "delete 404 not found",
 			"url": "http://localhost:8000/api/artists/asdasd",
-			"time": 2,
+			"time": 4,
 			"responseCode": {
 				"code": 404,
 				"name": "Not Found"
@@ -380,7 +380,7 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				2
+				4
 			],
 			"allTests": [
 				{}
@@ -390,10 +390,28 @@
 			"id": "9b450228-86d7-4588-9a3f-1ae80ee5586f",
 			"name": "create call on specific item Copy",
 			"url": "http://localhost:8000/api/artists",
-			"time": 3,
+			"time": 15,
 			"responseCode": {
 				"code": 201,
 				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				15
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ba683c25-9a91-41fd-9ae0-14fe6e4b17b3",
+			"name": "getAll Copy",
+			"url": "http://localhost:8000/api/artists",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
 			},
 			"tests": {},
 			"testPassFailCounts": {},
@@ -405,28 +423,10 @@
 			]
 		},
 		{
-			"id": "ba683c25-9a91-41fd-9ae0-14fe6e4b17b3",
-			"name": "getAll Copy",
-			"url": "http://localhost:8000/api/artists",
-			"time": 2,
-			"responseCode": {
-				"code": 200,
-				"name": "OK"
-			},
-			"tests": {},
-			"testPassFailCounts": {},
-			"times": [
-				2
-			],
-			"allTests": [
-				{}
-			]
-		},
-		{
 			"id": "d24c2344-ea40-41b3-bc6e-b6e1955152a8",
 			"name": "patch conflict",
 			"url": "http://localhost:8000/api/artists/3",
-			"time": 5,
+			"time": 9,
 			"responseCode": {
 				"code": 409,
 				"name": "Conflict"
@@ -434,7 +434,7 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				5
+				9
 			],
 			"allTests": [
 				{}
@@ -444,7 +444,7 @@
 			"id": "c7c8cd5e-6fa0-4d0b-bc8b-31dd327f9216",
 			"name": "put conflict",
 			"url": "http://localhost:8000/api/artists/3",
-			"time": 4,
+			"time": 7,
 			"responseCode": {
 				"code": 409,
 				"name": "Conflict"
@@ -452,7 +452,7 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				4
+				7
 			],
 			"allTests": [
 				{}
@@ -460,7 +460,7 @@
 		}
 	],
 	"count": 1,
-	"totalTime": 74,
+	"totalTime": 115,
 	"collection": {
 		"requests": [
 			{
